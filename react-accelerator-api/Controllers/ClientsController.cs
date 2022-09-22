@@ -1,12 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
-using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using react_accelerator_api.Services;
 
 namespace react_accelerator_api.Controllers
 {
-    [Authorize]
     [ApiController]
     [Route("[controller]")]
     public class ClientsController : ControllerBase
